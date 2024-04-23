@@ -7,7 +7,8 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum Tipo {
 
-    PF( 1L, "Pessoa Física", "PF" ), PJ( 2L, "Pessoa Jurídica", "PJ" );
+    PF( 1L, "Pessoa Física", "PF" ),
+    PJ( 2L, "Pessoa Jurídica", "PJ" );
 
     private Long id;
     private String nome;

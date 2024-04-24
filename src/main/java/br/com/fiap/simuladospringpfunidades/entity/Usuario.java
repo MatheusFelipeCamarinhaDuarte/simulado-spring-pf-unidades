@@ -22,7 +22,7 @@ public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SQ_USERNAME")
     @SequenceGenerator(name = "SQ_USERNAME", sequenceName = "SQ_USERNAME")
-    @Column(name = "ID_USERNAME")
+    @Column(name = "ID_USUARIO")
     private Long id;
 
     @Column(name = "USERNAME")

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: unidades
+  profiles:
+    active: desenvolvimento
+  thymeleaf:
+    check-template-location: false
+
+
+server:
+  port: 80
